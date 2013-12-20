@@ -62,6 +62,7 @@
   <ItemGroup>
     <Content Include="AIML\aiml\AI.aiml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="AIML\aiml\Atomic.aiml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

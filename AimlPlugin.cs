@@ -61,6 +61,8 @@ namespace XmppBot_AIML
 
             if(_conversing)
             {
+                _bot.DefaultPredicates.updateSetting("name", line.User);
+
                 return _bot.Respond(line.Raw, _users[line.User]);
             }
 
