@@ -172,6 +172,7 @@
     </Content>
     <Content Include="AIML\config\Settings.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="AIML\config\Splitters.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
