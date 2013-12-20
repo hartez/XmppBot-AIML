@@ -53,7 +53,7 @@ namespace XmppBot_AIML
                     return "Good talk, " + line.User;
                 }
             }
-            else if(Enumerable.Any(_config.StartTriggers, trigger => trigger.Matches(line.Raw)))
+            else if(_config.StartTriggers.Any(trigger => trigger.Matches(line.Raw)))
             {
                 _conversing = true;
                 return _bot.Respond(line.Raw, _users[line.User]) + " [By the way, if my chattering starts to get annoying, you can type 'Stop Talking' and I might.]";
@@ -61,8 +61,6 @@ namespace XmppBot_AIML
 
             if(_conversing)
             {
-                _bot.DefaultPredicates.updateSetting("name", line.User);
-
                 return _bot.Respond(line.Raw, _users[line.User]);
             }
 
