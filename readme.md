@@ -1,6 +1,6 @@
 # AIML Plugin for XmppBot
 
-This is a simple plugin for [XmppBot For HipChat](https://github.com/patHyatt/XmppBot-for-HipChat). Which connects the [AIMLBot project] to XmppBot. AIML stands for [Artificial Intelligence Markup Language](http://en.wikipedia.org/wiki/AIML).
+This is a simple plugin for [XmppBot For HipChat](https://github.com/patHyatt/XmppBot-for-HipChat) which connects the [AIMLBot project] to XmppBot. AIML stands for [Artificial Intelligence Markup Language](http://en.wikipedia.org/wiki/AIML).
 
 ## Installation
 
